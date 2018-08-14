@@ -1,0 +1,58 @@
+.dropdown:hover ul {
+    display: block;
+}
+
+.icon-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: black;
+}
+
+ul {
+    display: none;
+    margin-left: -50px;
+}
+
+li {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+header.clearfix {
+    background-color: rgb(255,233,177);
+    padding: 10px;
+}
+
+@media only screen and (min-width: 640px){
+    .icon-menu {
+        display: none;
+    }
+
+    ul {
+        display: block;
+    }
+
+    li {
+        display: inline-block;
+        border: none;
+        margin-left: 30px;
+        padding: 0px;
+    }
+
+    img {
+        float: right;
+    }
+
+    header.clearfix {
+        padding: 10px;
+    }
+}
